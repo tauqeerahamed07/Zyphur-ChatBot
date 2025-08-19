@@ -1,4 +1,4 @@
-        const API_KEY = "AIzaSyAvOP5TbUr0sYs4o_w23ugDxImPQpZSaRo";
+        const API_KEY = "AIzaSyA5TbUr0sYs4w23ugDxImPQpZSaRo";
         const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
         // DOM elements
@@ -82,4 +82,5 @@
             messageDiv.textContent = text;
             chatMessages.appendChild(messageDiv);
             chatMessages.scrollTop = chatMessages.scrollHeight;
+
         }
